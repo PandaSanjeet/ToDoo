@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_700</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_light</item>
+        <item name="postSplashScreenTheme">@style/Theme.ToDoo</item>
+    </style>
+
+    <style name="Theme.ToDoo" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
