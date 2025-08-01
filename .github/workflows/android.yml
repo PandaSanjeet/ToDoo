@@ -25,6 +25,9 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
+
+    - name: Build apk debug project (APK) - ${{ env.main_project_module }} module
+      run: ./gradlew assembleDebug
       
     - name: Upload APK
       uses: actions/upload-artifact@v4
